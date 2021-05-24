@@ -1,7 +1,7 @@
 # Million Domains Crawled and Counting
 
 <p align="center"> 
-<img src="imgs/domains.png" width="50%"> 
+<img src="imgs/domains.jpeg" width="50%"> 
 </p>
 
 *By: Kyle W. Brown*
