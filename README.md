@@ -38,6 +38,10 @@ domains = pd.read_csv('https://raw.githubusercontent.com/tianhuil/design-data/ma
 ```
 ![](imgs/majestic.png)
 
+<p align="center"> 
+<img src="imgs/majestic.png" width="50%"> 
+</p>
+
 <br>
 
 # Top Ten Global Ranked SEOs
@@ -51,6 +55,10 @@ top_10_domains
 ```
 
 ![](imgs/glbrank.png)
+
+<p align="center"> 
+<img src="imgs/glbrank.png" width="50%"> 
+</p>
 
 <br>
 
@@ -66,6 +74,10 @@ percent100 = s.value_counts(normalize=True).mul(100).round(1).astype(str) + '%'
 pd.DataFrame({'Counts': counts, 'Percent': percent, 'Percent(%)': percent100}).head(10)
 ```
 ![](imgs/tld.png)
+
+<p align="center"> 
+<img src="imgs/tld.png" width="50%"> 
+</p>
 
 
 ## Top 10 TLDs Visualization
@@ -83,6 +95,11 @@ percent.plot(kind='bar', color=viridis.colors, rot=0);
 
 ![](imgs/topten.PNG)
 
+<p align="center"> 
+<img src="imgs/topten.PNG" width="50%"> 
+</p>
+
+
 <br>
 
 # Correlation Analysis
@@ -99,3 +116,7 @@ As expected GlobalRank and TldRank are closely correlated (49%), surprising RefS
 # Correlation Heatmap
 
 ![](imgs/corrplt.PNG)
+
+<p align="center"> 
+<img src="imgs/corrplt.PNG" width="50%"> 
+</p>
