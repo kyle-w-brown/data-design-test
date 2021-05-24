@@ -6,14 +6,14 @@
 
 # Table of Contents
 
-* (Overview)[#overview]
-* About Majestic(#about-majestic)
-* Data(#data)
-* Top Ten Global Ranked SEO's
-* Top-Level Domains Breakdown(#top-level-domains-breakdown-for-majestic)
-* Top 10 TLDs Visualization(#top-10-tlds-visualization)
-* Correlation Analysis(#correlation-analysis)
-* Correlation Heatmap(#correlation-heatmap)
+* [Overview](#overview)
+* [About Majestic](#about-majestic)
+* [Data](#data)
+* [Top Ten Global Ranked SEO's](#top-ten-global-ranked-seos)
+* [Top-Level Domains Breakdown](#top-level-domains-breakdown-for-majestic)
+* [Top 10 TLDs Visualization](#top-10-tlds-visualization)
+* [Correlation Analysis](#correlation-analysis)
+* [Correlation Heatmap](#correlation-heatmap)
 
 <br>
 
