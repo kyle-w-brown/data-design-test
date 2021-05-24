@@ -2,9 +2,14 @@
 
 *By: Kyle W. Brown*
 
+## Overview
+
+This analysis reviews the top domains that are global ranked through Majestic Million, a database of a million domains that find the most referring subnets. Free search and download of the top million websites, from the world's largest commercially available backlink database. The [majestic_million.csv](https://downloads.majestic.com/majestic_million.csv) dataset is from [Majestic](https://majestic.com/)
+
+<br>
+
 ## Table of Contents
 
-* [Overview](#overview)
 * [About Majestic](#about-majestic)
 * [Data](#data)
 * [Top Ten Global Ranked SEO's](#top-ten-global-ranked-seos)
@@ -14,11 +19,6 @@
 * [Correlation Heatmap](#correlation-heatmap)
 
 <br>
-
-## Overview
-
-This analysis reviews the top domains that are global ranked through Majestic Million, a database of a million domains that find the most referring subnets. Free search and download of the top million websites, from the world's largest commercially available backlink database. The [majestic_million.csv](https://downloads.majestic.com/majestic_million.csv) dataset is from [Majestic](https://majestic.com/)
-
 
 ## About Majestic
 
