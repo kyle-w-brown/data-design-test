@@ -1,4 +1,4 @@
-# Million Domains Crawled & Counting
+# Million Domains Crawled and Counting
 
 
 This analysis reviews the top domains that are global ranked through Majestic Million, a database of a million domains that find the most referring subnets. Free search and download of the top million websites, from the world's largest commercially available backlink database. The [majestic_million.csv](https://downloads.majestic.com/majestic_million.csv) dataset is from [Majestic](https://majestic.com/)
@@ -22,7 +22,7 @@ import pandas as pd
 # Loading data fom Raw Git csv
 domains = pd.read_csv('https://raw.githubusercontent.com/tianhuil/design-data/main/data/majestic_million.csv?token=AMCCLAEHZDKK4DUKMRI2Y6TAWGY4K')
 ```
-![](imgs/majestic.PNG)
+![](imgs/majestic.png)
 
 <br>
 
@@ -36,7 +36,7 @@ top_10_domains = domains.loc[:, ["GlobalRank", "Domain"]].head(10)
 top_10_domains
 ```
 
-![](imgs/glbrank.PNG)
+![](imgs/glbrank.png)
 
 <br>
 
@@ -49,7 +49,7 @@ percent = s.value_counts(normalize=True)
 percent100 = s.value_counts(normalize=True).mul(100).round(1).astype(str) + '%'
 pd.DataFrame({'Counts': counts, 'Percent': percent, 'Percent(%)': percent100}).head(10)
 ```
-![](imgs/tld.PNG)
+![](imgs/tld.png)
 
 
 ## Top 10 TLD's Visualization
@@ -65,7 +65,7 @@ percent = percent.head(10)
 percent.plot(kind='bar', color=viridis.colors, rot=0);
 ```
 
-![](imgs/topten.png)
+![](imgs/topten.PNG)
 
 <br>
 
@@ -74,7 +74,7 @@ percent.plot(kind='bar', color=viridis.colors, rot=0);
 ```python
 domains.corr()
 ```
-![](imgs/corr.PNG)
+![](imgs/corr.png)
 
 As expected GlobalRank and TldRank are closely correlated (49%), surprising RefSubNets and RefIPs account for a 91% correlation. Besides the stated correlations the dataset provides interesting correlations among all fields.
 
@@ -82,4 +82,4 @@ As expected GlobalRank and TldRank are closely correlated (49%), surprising RefS
 
 ## Correlation Heatmap
 
-![](imgs/corrplt.png)
+![](imgs/corrplt.PNG)
