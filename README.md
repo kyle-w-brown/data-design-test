@@ -2,9 +2,7 @@
 
 *By: Kyle W. Brown*
 
-<br>
-
-# Table of Contents
+## Table of Contents
 
 * [Overview](#overview)
 * [About Majestic](#about-majestic)
