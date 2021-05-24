@@ -1,5 +1,7 @@
 # Million Domains Crawled and Counting
 
+<br>
+
 <p align="center"> 
 <img src="imgs/domains.png" width="50%"> 
 </p>
