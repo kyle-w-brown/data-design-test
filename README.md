@@ -6,9 +6,8 @@
 <img src="imgs/domains.png" width="50%"> 
 </p>
 
-<center>
 *By: Kyle W. Brown*
-</center>
+
 
 ## Overview
 
