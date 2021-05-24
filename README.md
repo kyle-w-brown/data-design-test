@@ -57,10 +57,8 @@ top_10_domains = domains.loc[:, ["GlobalRank", "Domain"]].head(10)
 top_10_domains
 ```
 
-![](imgs/glbrank.png)
-
 <p align="center"> 
-<img src="imgs/glbrank.png" width="50%"> 
+<img src="imgs/glbrank.png" width="30%"> 
 </p>
 
 <br>
@@ -76,7 +74,6 @@ percent = s.value_counts(normalize=True)
 percent100 = s.value_counts(normalize=True).mul(100).round(1).astype(str) + '%'
 pd.DataFrame({'Counts': counts, 'Percent': percent, 'Percent(%)': percent100}).head(10)
 ```
-![](imgs/tld.png)
 
 <p align="center"> 
 <img src="imgs/tld.png" width="30%"> 
