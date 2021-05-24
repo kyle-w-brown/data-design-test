@@ -79,7 +79,7 @@ pd.DataFrame({'Counts': counts, 'Percent': percent, 'Percent(%)': percent100}).h
 ![](imgs/tld.png)
 
 <p align="center"> 
-<img src="imgs/tld.png" width="50%"> 
+<img src="imgs/tld.png" width="30%"> 
 </p>
 
 
@@ -96,10 +96,8 @@ percent = percent.head(10)
 percent.plot(kind='bar', color=viridis.colors, rot=0);
 ```
 
-![](imgs/topten.PNG)
-
 <p align="center"> 
-<img src="imgs/topten.PNG" width="50%"> 
+<img src="imgs/topten.PNG" width="30%"> 
 </p>
 
 
@@ -118,8 +116,6 @@ As expected GlobalRank and TldRank are closely correlated (49%), surprising RefS
 
 # Correlation Heatmap
 
-![](imgs/corrplt.PNG)
-
 <p align="center"> 
-<img src="imgs/corrplt.PNG" width="50%"> 
+<img src="imgs/corrplt.PNG" width="30%"> 
 </p>
