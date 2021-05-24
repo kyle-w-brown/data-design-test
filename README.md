@@ -6,7 +6,7 @@
 
 # Table of Contents
 
-* Overview(#overview)
+* (Overview)[#overview]
 * About Majestic(#about-majestic)
 * Data(#data)
 * Top Ten Global Ranked SEO's
