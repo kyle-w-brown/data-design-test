@@ -97,7 +97,7 @@ percent.plot(kind='bar', color=viridis.colors, rot=0);
 ```
 
 <p align="center"> 
-<img src="imgs/topten.PNG" width="30%"> 
+<img src="imgs/topten.PNG" width="50%"> 
 </p>
 
 
@@ -117,5 +117,5 @@ As expected GlobalRank and TldRank are closely correlated (49%), surprising RefS
 # Correlation Heatmap
 
 <p align="center"> 
-<img src="imgs/corrplt.PNG" width="30%"> 
+<img src="imgs/corrplt.PNG" width="50%"> 
 </p>
