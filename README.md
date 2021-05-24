@@ -1,5 +1,23 @@
 # Million Domains Crawled and Counting
 
+*By: Kyle W. Brown*
+
+<br>
+
+# Table of Contents
+
+* Overview(#overview)
+* About Majestic(#about-majestic)
+* Data(#data)
+* Top Ten Global Ranked SEO's
+* Top-Level Domains Breakdown(#top-level-domains-breakdown-for-majestic)
+* Top 10 TLDs Visualization(#top-10-tlds-visualization)
+* Correlation Analysis(#correlation-analysis)
+* Correlation Heatmap(#correlation-heatmap)
+
+<br>
+
+## Overview
 
 This analysis reviews the top domains that are global ranked through Majestic Million, a database of a million domains that find the most referring subnets. Free search and download of the top million websites, from the world's largest commercially available backlink database. The [majestic_million.csv](https://downloads.majestic.com/majestic_million.csv) dataset is from [Majestic](https://majestic.com/)
 
@@ -26,7 +44,7 @@ domains = pd.read_csv('https://raw.githubusercontent.com/tianhuil/design-data/ma
 
 <br>
 
-# Top-Ten Global Ranked SEO's
+# Top Ten Global Ranked SEOs
 
 A top-level domain is one of the domains at the highest level in the hierarchical Domain Name System of the Internet. The top-level domain names are installed in the root zone of the name space. For all domains in lower levels, it is the last part of the domain name, that is, the last label of a fully qualified domain name. (Wikipedia)
 
@@ -40,7 +58,9 @@ top_10_domains
 
 <br>
 
-# Top-Level Domains (TLD) Breakdown for Majestic 
+# Top Level Domains Breakdown for Majestic 
+
+Top-level domain (TLD) breakdown for majestic dataset. 
 
 ```python
 s = domains.TLD
@@ -52,7 +72,7 @@ pd.DataFrame({'Counts': counts, 'Percent': percent, 'Percent(%)': percent100}).h
 ![](imgs/tld.png)
 
 
-## Top 10 TLD's Visualization
+## Top 10 TLDs Visualization
 
 ```python
 from matplotlib import cm
@@ -80,6 +100,6 @@ As expected GlobalRank and TldRank are closely correlated (49%), surprising RefS
 
 <br>
 
-## Correlation Heatmap
+# Correlation Heatmap
 
 ![](imgs/corrplt.PNG)
